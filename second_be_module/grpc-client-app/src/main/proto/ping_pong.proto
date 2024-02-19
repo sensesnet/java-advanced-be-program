@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.epam.learn.stubs.ping_pong;
+
+option java_package = "com.epam.learn.stubs.ping_pong";
+option java_multiple_files = true;
+
+
+message PingRequest {
+  string message = 1;
+}
+
+message PongResponse {
+  string message = 1;
+}
+
+service PingPongService {
+  rpc ping(PingRequest) returns (PongResponse);
+}
