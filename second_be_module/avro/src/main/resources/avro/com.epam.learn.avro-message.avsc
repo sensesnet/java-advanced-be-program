@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "AvroMessage",
+  "namespace": "com.epam.learn",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "text",
+      "type": "string"
+    },
+    {
+      "name": "location",
+      "type": "string"
+    }
+  ]
+}

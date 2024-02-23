@@ -14,6 +14,7 @@
     <modules>
         <module>grpc-server-app</module>
         <module>grpc-client-app</module>
+        <module>avro</module>
     </modules>
 
     <properties>
