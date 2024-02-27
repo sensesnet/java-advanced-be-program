@@ -5,6 +5,9 @@ package com.epam.learn.stubs.ping_pong;
 option java_package = "com.epam.learn.stubs.ping_pong";
 option java_multiple_files = true;
 
+service PingPongService {
+  rpc ping(PingRequest) returns (PongResponse);
+}
 
 message PingRequest {
   string message = 1;
@@ -12,8 +15,4 @@ message PingRequest {
 
 message PongResponse {
   string message = 1;
-}
-
-service PingPongService {
-  rpc ping(PingRequest) returns (PongResponse);
 }

@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class GrpcServer {
     public static void main(String[] args) throws InterruptedException, IOException {
-        Server server = ServerBuilder.forPort(8080)
+        Server server = ServerBuilder.forPort(9090)
                 .addService(new PingPongServiceImpl())
                 .build();
         server.start();
