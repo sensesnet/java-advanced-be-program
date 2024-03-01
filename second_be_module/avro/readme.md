@@ -3,7 +3,7 @@
 - Create confluent.cloud account
 - set up cluster
 - set up topic and provide schema
-- open schema-registry to find url 
+- open schema-registry to find url & generate secrets
 - open cluster settings to generate secret and cluster id
 - run project with params
 - send message
@@ -69,7 +69,7 @@ Navigate to cluster settings and find [cluster_id; host; cluster_name]
 
 Navigate to cluster topics and create topic: [message]
 
-Navigate to topic shema and validate and save 
+Navigate to topic schema and validate and save 
 
 ```
 {
@@ -92,7 +92,4 @@ Navigate to topic shema and validate and save
   ]
 }
 ```
-
-
-
 
