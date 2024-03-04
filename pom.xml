@@ -11,6 +11,7 @@
         <module>first_be_module</module>
         <module>second_be_module</module>
         <module>third_be_module</module>
+        <module>fourth_be_module</module>
     </modules>
 
     <parent>
